@@ -1,42 +1,18 @@
-#
-# Be sure to run `pod lib lint Pod-Bundle-Manager.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'Pod-Bundle-Manager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Pod-Bundle-Manager.'
+  s.summary          = 'A small pod that allows easy use of images in pods.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.description      = 'A small pod that allows easy use of images in pods.'
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/Pod-Bundle-Manager'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'http://github.com/michaelTzach/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'I' => 'michael.tzach@jivesoftware.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/Pod-Bundle-Manager.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/MichaelTzach/pod-bundle-manager.git', :tag => s.version.to_s }
+
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Pod-Bundle-Manager/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Pod-Bundle-Manager' => ['Pod-Bundle-Manager/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

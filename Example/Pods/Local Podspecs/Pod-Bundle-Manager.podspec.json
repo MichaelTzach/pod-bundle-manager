@@ -1,9 +1,9 @@
 {
   "name": "Pod-Bundle-Manager",
   "version": "0.1.0",
-  "summary": "A short description of Pod-Bundle-Manager.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/Pod-Bundle-Manager",
+  "summary": "A small pod that allows easy use of images in pods.",
+  "description": "A small pod that allows easy use of images in pods.",
+  "homepage": "http://github.com/michaelTzach/",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "I": "michael.tzach@jivesoftware.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/Pod-Bundle-Manager.git",
+    "git": "https://github.com/MichaelTzach/pod-bundle-manager.git",
     "tag": "0.1.0"
   },
   "platforms": {
