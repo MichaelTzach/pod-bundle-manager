@@ -1,0 +1,22 @@
+{
+  "name": "Pod-Bundle-Manager",
+  "version": "0.1.0",
+  "summary": "A short description of Pod-Bundle-Manager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Pod-Bundle-Manager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "I": "michael.tzach@jivesoftware.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Pod-Bundle-Manager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Pod-Bundle-Manager/Classes/**/*"
+}

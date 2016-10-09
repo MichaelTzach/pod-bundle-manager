@@ -1,0 +1,6 @@
+framework module Pods_Pod_Bundle_Manager_Example {
+  umbrella header "Pods-Pod-Bundle-Manager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

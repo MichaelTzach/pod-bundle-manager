@@ -1,0 +1,16 @@
+PODS:
+  - Pod-Bundle-Manager (0.1.0)
+
+DEPENDENCIES:
+  - Pod-Bundle-Manager (from `../`)
+
+EXTERNAL SOURCES:
+  Pod-Bundle-Manager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Pod-Bundle-Manager: c88aeb438f27d6e69052309eff05913b2f588f56
+
+PODFILE CHECKSUM: 97cd91b925af1ea872f3d06ec658229c38967c0e
+
+COCOAPODS: 1.0.0

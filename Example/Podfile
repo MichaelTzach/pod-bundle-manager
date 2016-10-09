@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Pod-Bundle-Manager_Example' do
+  pod 'Pod-Bundle-Manager', :path => '../'
+
+  target 'Pod-Bundle-Manager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
