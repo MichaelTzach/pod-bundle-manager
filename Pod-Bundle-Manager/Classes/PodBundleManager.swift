@@ -13,7 +13,7 @@ public class PodBundleManager: NSObject {
     private var resourceBundleName: String!
     private var bundle: NSBundle!
     
-    init(_ bundleName: String?, callerClass: AnyClass) {
+    public init(_ bundleName: String?, callerClass: AnyClass) {
         bundle = NSBundle(forClass: callerClass)
         
         var bundleNameToSave = bundleName
