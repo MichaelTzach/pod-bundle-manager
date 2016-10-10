@@ -10,12 +10,10 @@ import UIKit
 
 public class PodBundleManager: NSObject {
 
-    public static let manager = PodBundleManager()
+    private var resourceBundleName: String!
+    private var bundle: NSBundle!
     
-    private var resourceBundleName: String?
-    private var bundle: NSBundle?
-    
-    public func setResourceBundleName(_ bundleName: String?, callerClass: AnyClass) {
+    init(_ bundleName: String?, callerClass: AnyClass) {
         bundle = NSBundle(forClass: callerClass)
         
         var bundleNameToSave = bundleName
