@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Pod-Bundle-Manager'
-  s.version          = '0.1.3'
+  s.version          = '0.2.0'
   s.summary          = 'A small pod that allows easy use of images in pods.'
 
   s.description      = 'A small pod that allows easy use of images in pods.'

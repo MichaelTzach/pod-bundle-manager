@@ -8,17 +8,17 @@
 
 import UIKit
 
-public class PodBundleManager: NSObject {
+open class PodBundleManager: NSObject {
 
-    private var resourceBundleName: String!
-    private var bundle: NSBundle!
+    fileprivate var resourceBundleName: String!
+    fileprivate var bundle: Bundle!
     
     public init(_ bundleName: String?, callerClass: AnyClass) {
-        bundle = NSBundle(forClass: callerClass)
+        bundle = Bundle(for: callerClass)
         
         var bundleNameToSave = bundleName
         if let bundleName = bundleName {
-            if !bundleName.containsString(".bundle") {
+            if !bundleName.contains(".bundle") {
                 bundleNameToSave = bundleName + ".bundle"
             }
         }
@@ -26,9 +26,9 @@ public class PodBundleManager: NSObject {
         resourceBundleName = bundleNameToSave
     }
     
-    public func image(named: String) -> UIImage? {
-        guard let resourceBundleName = resourceBundleName, bundle = bundle else { return nil }
+    open func image(_ named: String) -> UIImage? {
+        guard let resourceBundleName = resourceBundleName, let bundle = bundle else { return nil }
         let resourceName = resourceBundleName + "/" + named
-        return UIImage(named: resourceName, inBundle: bundle, compatibleWithTraitCollection: nil)
+        return UIImage(named: resourceName, in: bundle, compatibleWith: nil)
     }
 }
